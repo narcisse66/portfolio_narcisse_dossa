@@ -1,41 +1,40 @@
-Bienvenue sur mon portfolio, une vitrine moderne et élégante de mes compétences et projets !
-Ce projet a été réalisé avec React.js et Tailwind CSS pour offrir une expérience utilisateur fluide et réactive, avec des animations captivantes et un design entièrement responsive.
+#  Portfolio de Narcisse DOSSA
 
-## Fonctionnalités principales
+Bienvenue sur mon portfolio !  
+Ce projet a été réalisé pour faire découvrir mes **travaux graphiques**, notamment des **affiches**, **créations visuelles** et autres projets artistiques. Il parle également de **moi** et de mon **parcours** en tant que designer graphique.
 
-- Présentation professionnelle : Découvrez mon parcours, mes compétences et mes réalisations.
-- Projets interactifs : Affichage des projets avec des descriptions détaillées et des liens pour explorer davantage.
-- Animations modernes : Ajout d'animations dynamiques et naturelles grâce à Framer Motion pour une meilleure expérience visuelle.
-- Contact simplifié : Formulaire de contact fonctionnel pour faciliter les échanges avec les visiteurs.
-- Design responsive : Interface adaptée à toutes les tailles d'écran, des mobiles aux grands écrans.
+🔗 **Accès au site** :  
+👉 [https://portfolio-narcisse-dossa.vercel.app/](https://portfolio-narcisse-dossa.vercel.app/)
 
-## Technologies utilisées
+---
 
-- React.js : Framework JavaScript pour la création d'interfaces utilisateur réactives.
-- Tailwind CSS : Framework CSS pour un design rapide, moderne et entièrement personnalisable.
-- Framer Motion : Bibliothèque d'animation pour des transitions fluides et dynamiques.
+## 🛠️ Technologies utilisées
 
-# Installation
+- **React.js** – Framework JavaScript pour construire l'interface
+- **Vite** – Outil de build rapide pour les projets front-end
+- **CSS/SCSS** – Pour le design et les animations
+- **JavaScript** – Pour les interactions
+- **Vercel** – Pour l’hébergement et le déploiement continu
 
-1. Clonez ce dépôt :
+---
 
-```bash
-    git clone [https://github.com/ton-utilisateur/ton-repo.git]
-    cd ton-repo
-```
+## 📁 Structure du projet
+src/
+├── assets/ → Images et icônes utilisées dans le site
+├── components/ → Composants réutilisables (Header, Footer, etc.)
+├── pages/ → Pages principales du site (Accueil, Compétences, etc.)
+├── App.jsx → Composant principal
+├── main.jsx → Point d'entrée de l'application
 
-2. Installer les dépendances :
+yaml
+Copier
+Modifier
 
-```bash
-    npm install
-```
+---
 
-3. Lancez le projet en mode développement :
+## 🎯 Objectifs
 
-```bash
-    npm start
-```
-
-## Déploiement
-
-Ce portfolio est déployé avec Vercel et accessible à l'adresse suivante : [https://geryguedegbe.com]
+- Valoriser mes compétences graphiques et visuelles
+- Partager mon univers créatif
+- Proposer une navigation simple et intuitive
+- Présenter mon parcours et mon approche du design
