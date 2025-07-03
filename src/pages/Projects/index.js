@@ -146,8 +146,6 @@ export const projectData = [
 
   {
     id: 13,
-    
-    id: 12,
     title: "Poster for pitch training for students",
     category: "Graphic Design",
     duration: "1 day",
