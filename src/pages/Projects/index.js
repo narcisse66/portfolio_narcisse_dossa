@@ -146,13 +146,15 @@ export const projectData = [
 
   {
     id: 13,
-    title: "Poster to promote Devops visibility services",
+    
+    id: 12,
+    title: "Poster for pitch training for students",
     category: "Graphic Design",
     duration: "1 day",
     clent: "Devops Unity",
     image: project_13,
     url: "",
-    desc: "In this project, I invite companies looking for visibility to trust Devops for their communication and marketing needs.",
+    desc: " In this project, I designed I created a poster for a pitch training course aimed at students, particularly those who want to defend their thesis. The poster features a visually appealing design, highlighting the importance of effective communication and presentation skills. The design is engaging and informative, aimed at encouraging student participation in the training sessions.",
   },
 
   {
