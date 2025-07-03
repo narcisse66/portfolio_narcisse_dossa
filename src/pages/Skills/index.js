@@ -4,7 +4,7 @@ import laravel_icon from "../../assets/icons/laravel_icon.svg";
 import photoshop_icon from "../../assets/icons/photoshop_icon.svg";
 import illustrator_icon from "../../assets/icons/illustrator_icon.svg";
 import figma_icon from "../../assets/icons/figma_icon.png";
-import InDesign_icon from "../../assets/icons/Indesign_icon.png";
+import InDesign_icon from "../../assets/icons/indesign_icon.png";
 
 export const skillData = [
   {
