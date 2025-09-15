@@ -28,6 +28,8 @@ const ProjectDetail = () => {
           </h1>
 
           {/* <ButtonLink to="#" text="Live Demo" Icon={IoIosArrowRoundForward} /> */}
+          <a href={project.url} target="_blank">{project.url}</a>
+
 
           <p className="text-sm font-light text-custom-black-40 lg:text-lg">
             {project.desc}

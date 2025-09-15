@@ -5,6 +5,7 @@ import photoshop_icon from "../../assets/icons/photoshop_icon.svg";
 import illustrator_icon from "../../assets/icons/illustrator_icon.svg";
 import figma_icon from "../../assets/icons/figma_icon.png";
 import InDesign_icon from "../../assets/icons/indesign_icon.png";
+import Django_icon from "../../assets/icons/django_icon.png";
 
 export const skillData = [
   {
@@ -35,13 +36,13 @@ export const skillData = [
     subtitle: "Graphic Design and Editing",
     desc: "Adobe Photoshop is essential for creating and editing graphics, designing layouts, and enhancing images. I use it to produce visually stunning content, from web graphics to photo retouching and creative compositions.",
   },
- // {
- //   id: 5,
- //   image: illustrator_icon,
- //   title: "Adobe Illustrator",
- //   subtitle: "Vector Art and Illustration",
- //   desc: "Adobe Illustrator enables me to create scalable vector graphics, perfect for logos, icons, and detailed illustrations. Its powerful tools help me design clean, precise, and flexible artwork for various projects.",
- // },
+  {
+    id: 5,
+    image: illustrator_icon,
+    title: "Adobe Illustrator",
+    subtitle: "Vector Art and Illustration",
+    desc: "Adobe Illustrator enables me to create scalable vector graphics, perfect for logos, icons, and detailed illustrations. Its powerful tools help me design clean, precise, and flexible artwork for various projects.",
+  },
   {
     id: 6,
     image: figma_icon,
@@ -55,5 +56,13 @@ export const skillData = [
     title: "Adobe InDesign",
     subtitle: " Layout and Publishing",
     desc: "Adobe InDesign is my tool for creating professional layouts for print and digital publications. I use it to design brochures, magazines, and other multi-page documents, ensuring a polished and visually appealing presentation.",
+  },
+
+  {
+    id: 7,
+    image: Django_icon,
+    title: "Django",
+    subtitle: " Web Development Framework",
+    desc: "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It provides a robust set of tools and features for building secure and maintainable web applications efficiently.",
   },
 ];
