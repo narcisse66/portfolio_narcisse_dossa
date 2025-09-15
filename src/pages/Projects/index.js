@@ -30,7 +30,7 @@ export const projectData = [
   {
     id: 1,
     title:
-      "Presentation of the services of a company specializing in small desserts",
+      "Presentation of the services of EM'S CAKES",
     category: "Graphic Design",
     duration: "2 days",
     clent: "EM'S CAKES",
