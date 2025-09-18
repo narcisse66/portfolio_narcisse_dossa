@@ -2,6 +2,7 @@ import AvailableDiv from "../../components/AvailableDiv";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import ButtonLink from "../../components/ButtonLink";
 import LatestProjectCard from "./components/LatestProjectCard";
+import LatestWebProjectCard from "./components/LatestWebProjectCard";
 import AllSkillCard from "./components/AllSkillCard";
 import { useEffect } from "react";
 
@@ -36,7 +37,7 @@ const Home = () => {
 
       <div className="flex w-full flex-col items-start justify-center gap-6 border-t border-t-custom-black-90">
         <h2 className="mt-8 text-2xl font-bold text-custom-black-10 lg:text-3xl xl:text-4xl">
-          Recent Projects
+          Recent Design Projects
         </h2>
 
         <LatestProjectCard />
@@ -47,6 +48,25 @@ const Home = () => {
           Icon={IoIosArrowRoundForward}
         />
       </div>
+
+
+
+      <div className="flex w-full flex-col items-start justify-center gap-6 border-t border-t-custom-black-90">
+        <h2 className="mt-8 text-2xl font-bold text-custom-black-10 lg:text-3xl xl:text-4xl">
+          Recent Dev Projects
+        </h2>
+
+        <LatestWebProjectCard />
+
+        <ButtonLink
+          to="/web"
+          text="All Projects"
+          Icon={IoIosArrowRoundForward}
+        />
+      </div>
+
+
+      
 
       <div className="flex w-full flex-col items-start justify-center gap-6 border-t border-t-custom-black-90">
         <h2

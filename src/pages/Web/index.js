@@ -1,0 +1,133 @@
+import project_1 from "../../assets/images/miniature2.png";
+import project_1_video from "../../assets/video/sitevoiture.mp4";
+
+import project_2 from "../../assets/images/miniature3.png";
+import project_2_video from "../../assets/video/gbemiton.mp4";
+
+import project_3 from "../../assets/images/miniaturerevue.png";
+import project_3_video from "../../assets/video/gameunity.mp4";
+
+import project_4 from "../../assets/images/miniature5.png";
+import project_4_video from "../../assets/video/devopsmother.mp4";
+
+import project_5 from "../../assets/images/miniature6.png";
+import project_5_video from "../../assets/video/flutterproject.mp4";
+
+
+import project_6 from "../../assets/images/miniature7.png";
+import project_6_video from "../../assets/video/easypass.mp4";
+
+import project_7 from "../../assets/images/miniature8.png";
+import project_7_video from "../../assets/video/inscriptionproj.mp4";
+
+import project_8 from "../../assets/images/miniature9.png";
+import project_8_video from "../../assets/video/jciproj.mp4";
+
+
+import { i, link } from "framer-motion/client";
+
+export const webData = [
+  {
+    id: 1,
+    title: "Website for selling vehicles online",
+    category: "Website",
+    duration: "2 weeks",
+    clent: "private company",
+    image: project_1,
+    video: project_1_video,
+    
+    url: "",
+    desc: "For this project I created a website to present vehicles for sale from the company Carseling. The design is user-friendly, allowing visitors to easily browse the available vehicles and access detailed information about each one.",
+  },
+
+  {
+    id: 2,
+    title: "Hackhathon MULTIMODAL IA ",
+    category: "Web Application",
+    duration: "3 days",
+    clent: "Hackathon project",
+    image: project_2,
+    
+    video: project_2_video,
+    url: "",
+    desc: "In this project, my team and I created for the AI ​​2023 multimodal hackathon an application called Gbemiton for local language video subtitling accompanied by a chatbot helping with local language learning.  ",
+  },
+
+  {
+    id: 3,
+    title: "Multiplayer car game",
+    category: "Game Development",
+    duration: "2 months",
+    clent: "personnal project",
+    image: project_3,
+    
+    video: project_3_video,
+    url: "",
+    desc: "For this project, I created a small multiplayer car racing game with the Unity engine.",
+  },
+
+  {
+    id: 4,
+    title: " Website for Mother's Day ",
+    category: "Website",
+    duration: "2 months",
+    clent: "Devops Unity",
+    image: project_4,
+    
+    video: project_4_video,
+    url: "",
+    desc: "For this project, I created a website to generate messages for Mother's Day. The design is user-friendly, allowing visitors to easily wish happy Mother's Day and express their gratitude for all the love and support they receive from their loved ones.",
+  },
+
+  {
+    id: 5,
+    title: " Art object sales app ",
+    category: "Mobile Application",
+    duration: "1 months",
+    clent: "Private company",
+    image: project_5,
+    
+    video: project_5_video,
+    url: "",
+    desc: "For this project, I created an app for selling art objects where the customer can view the objects for sale and place an order for the desired object. The design is simple and user-friendly for a better experience.",
+  },
+
+  {
+    id: 6,
+    title: " Hackathon Celtis ",
+    category: "Mini application",
+    duration: "2 months",
+    clent: "Private company",
+    image: project_6,
+    
+    video: project_6_video,
+    url: "",
+    desc: "For this project, My team and I have created a mini app for selling tickets for online events, EasyPass, with a conversational chatbot that makes it easier to search for specific events.  ",
+  },
+
+  {
+    id: 7,
+    title: " School registration management ",
+    category: "Web application",
+    duration: "2 months",
+    clent: "Private company",
+    image: project_7,
+    
+    video: project_7_video,
+    url: "",
+    desc: "For this project, I created an app for managing registrations and re-registrations in schools with features such as recording registration requests, validating these requests by an admin or sending emails to parents to share important information.",
+  },
+
+  {
+    id: 8,
+    title: " JCI Projet Regional ",
+    category: "Webapplication",
+    duration: "2 months",
+    clent: "Regional project",
+    image: project_8,
+    
+    video: project_8_video,
+    url: "",
+    desc: "For this project, My team and I have created a web application for managing members and aspirants for JCI. Our application allows us to register new aspirants and monitor them until they become members.",
+  },
+];

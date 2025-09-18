@@ -4,6 +4,8 @@ import {
   PiGithubLogoLight,
   PiEnvelopeSimpleThin,
 } from "react-icons/pi";
+import { PiPaintBrush } from "react-icons/pi";
+import { PiCode } from "react-icons/pi";
 import { GoHome } from "react-icons/go";
 
 import {
@@ -43,7 +45,8 @@ export const shareData = [
 export const LinkData = [
   { id: 1, to: "/", label: "Home", Icon: GoHome },
   { id: 2, to: "/about", label: "About", Icon: PiUser },
-  { id: 3, to: "/projects", label: "Projects", Icon: PiBagLight },
-  { id: 4, to: "/skill", label: "Skills", Icon: PiStackLight },
-  { id: 5, to: "/contact", label: "Contact", Icon: PiEnvelopeOpenLight },
+  { id: 3, to: "/projects", label: "Design Projects", Icon: PiPaintBrush },
+  { id: 4, to: "/web", label: "Dev Projects", Icon: PiCode },
+  { id: 5, to: "/skill", label: "Skills", Icon: PiStackLight },
+  { id: 6, to: "/contact", label: "Contact", Icon: PiEnvelopeOpenLight },
 ];

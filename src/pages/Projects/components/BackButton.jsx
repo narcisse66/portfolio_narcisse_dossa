@@ -22,7 +22,7 @@ const BackButton = () => {
           <IoMdArrowBack className="text-2xl" />
         </div>
       </div>
-      Back to projects
+      Back to Branding projects
     </button>
   );
 };

@@ -8,6 +8,9 @@ import Contact from "./pages/Contact/Contact";
 import PageNotFound from "./pages/PageNotFound/PageNotFound";
 import ProjectDetail from "./pages/Projects/components/ProjectDetail";
 import Skills from "./pages/Skills/Skills";
+import Web from "./pages/Web/Web";
+import WebDetail from "./pages/Web/components/WebDetail"; 
+
 
 const App = () => {
   return (
@@ -17,6 +20,8 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
+          <Route path="web" element={<Web />} />
+          <Route path="/web/:id" element={<WebDetail />} />
           <Route path="/projects/:id" element={<ProjectDetail />} />
           <Route path="skill" element={<Skills />} />
           <Route path="contact" element={<Contact />} />
