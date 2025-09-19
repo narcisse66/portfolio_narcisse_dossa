@@ -6,8 +6,8 @@ import project_5 from "../../assets/images/project_5.png";
 import project_6 from "../../assets/images/project_6.png";
 import project_7 from "../../assets/images/project_7.jpg";
 import project_8 from "../../assets/images/project_8.png";
-import project_9 from "../../assets/images/project_9.png";
-import project_10 from "../../assets/images/project_10.png";
+//import project_9 from "../../assets/images/project_9.png";
+//import project_10 from "../../assets/images/project_10.png";
 import project_11 from "../../assets/images/project_11.jpg";
 import project_12 from "../../assets/images/project_12.png";
 import project_13 from "../../assets/images/project_13.png";
@@ -109,26 +109,8 @@ export const projectData = [
     desc: " In this project , I designed a poster for New Year's greetings, incorporating festive elements to create a welcoming and celebratory atmosphere for the new year. ",
   },
 
-  {
-    id: 9,
-    title: "Login and Registration Page for Carseling",
-    category: "Web Development",
-    duration: "1 week",
-    clent: "Carseling",
-    image: project_9,
-    url: "",
-    desc: "In this project, I developed a website for Carseling, a company specializing in the sale of used cars. The site features a modern and user-friendly design, allowing customers to easily browse and purchase vehicles online. The platform includes detailed car listings, high-quality images, and an intuitive search function to enhance the user experience.",
-  },
-  {
-    id: 10,
-    title: "home page of Heavenn Soft",
-    category: "Web Development",
-    duration: "1 day",
-    clent: "Personal Project",
-    image: project_10,
-    url: "https://narcisse66.github.io/fsite/",
-    desc: " In this fictifical project, I developed a home page for Heaven Solutions, a company specializing in web development and digital solutions. The design is sleek and professional, showcasing the company's expertise and services. The homepage features a clean layout with easy navigation, highlighting key offerings and client testimonials to build trust and encourage engagement. ",
-  },
+
+  
   {
     id: 11,
     title: "Poster for a shaker featuring coffee",

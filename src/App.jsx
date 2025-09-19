@@ -10,6 +10,11 @@ import ProjectDetail from "./pages/Projects/components/ProjectDetail";
 import Skills from "./pages/Skills/Skills";
 import Web from "./pages/Web/Web";
 import WebDetail from "./pages/Web/components/WebDetail"; 
+import { i } from "framer-motion/client";
+
+import Gallery from "./pages/Gallery/Gallery";
+import GalleryDetail from "./pages/Gallery/components/GalleryDetail";
+
 
 
 const App = () => {
@@ -25,6 +30,8 @@ const App = () => {
           <Route path="/projects/:id" element={<ProjectDetail />} />
           <Route path="skill" element={<Skills />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="gallery" element={<Gallery />} />
+          <Route path="/gallery/:id" element={<GalleryDetail />} />
           <Route path="*" element={<PageNotFound />} />
         </Route>
       </Routes>
