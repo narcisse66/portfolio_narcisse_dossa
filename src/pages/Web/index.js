@@ -34,7 +34,7 @@ export const webData = [
     duration: "2 weeks",
     clent: "private company",
     image: project_1,
-    video: project_1_video,
+    video: "https://res.cloudinary.com/dp7fm3nsj/video/upload/v1758541290/gameunitycomp_otvy7r.mp4",
     
     url: "",
     desc: "For this project I created a website to present vehicles for sale from the company Carseling. The design is user-friendly, allowing visitors to easily browse the available vehicles and access detailed information about each one.",
@@ -48,7 +48,7 @@ export const webData = [
     clent: "Hackathon project",
     image: project_2,
     
-    video: project_2_video,
+    video: "",
     url: "",
     desc: "In this project, my team and I created for the AI ​​2023 multimodal hackathon an application called Gbemiton for local language video subtitling accompanied by a chatbot helping with local language learning.  ",
   },
@@ -61,7 +61,7 @@ export const webData = [
     clent: "personnal project",
     image: project_3,
     
-    video: project_3_video,
+    video: "",
     url: "",
     desc: "For this project, I created a small multiplayer car racing game with the Unity engine.",
   },
@@ -74,7 +74,7 @@ export const webData = [
     clent: "Devops Unity",
     image: project_4,
     
-    video: project_4_video,
+    video: "",
     url: "",
     desc: "For this project, I created a website to generate messages for Mother's Day. The design is user-friendly, allowing visitors to easily wish happy Mother's Day and express their gratitude for all the love and support they receive from their loved ones.",
   },
@@ -87,7 +87,7 @@ export const webData = [
     clent: "Private company",
     image: project_5,
     
-    video: project_5_video,
+    video: "",
     url: "",
     desc: "For this project, I created an app for selling art objects where the customer can view the objects for sale and place an order for the desired object. The design is simple and user-friendly for a better experience.",
   },
@@ -100,7 +100,7 @@ export const webData = [
     clent: "Private company",
     image: project_6,
     
-    video: project_6_video,
+    video: "",
     url: "",
     desc: "For this project, My team and I have created a mini app for selling tickets for online events, EasyPass, with a conversational chatbot that makes it easier to search for specific events.  ",
   },
@@ -113,7 +113,7 @@ export const webData = [
     clent: "Private company",
     image: project_7,
     
-    video: project_7_video,
+    video: "",
     url: "",
     desc: "For this project, I created an app for managing registrations and re-registrations in schools with features such as recording registration requests, validating these requests by an admin or sending emails to parents to share important information.",
   },
@@ -126,7 +126,7 @@ export const webData = [
     clent: "Regional project",
     image: project_8,
     
-    video: project_8_video,
+    video: "",
     url: "",
     desc: "For this project, My team and I have created a web application for managing members and aspirants for JCI. Our application allows us to register new aspirants and monitor them until they become members.",
   },

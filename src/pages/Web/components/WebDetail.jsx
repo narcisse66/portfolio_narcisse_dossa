@@ -88,15 +88,15 @@ const WebDetail = () => {
           />
         </div>
       </div>
-      <div className="mt-8  h-full w-full lg:block">
+      <div className="mt-8 h-full w-full lg:block">
+  <video
+    src={webproject.video}  // lien Cloudinary
+    controls
+    poster={webproject.image}
+    className="h-auto w-full rounded-lg object-cover"
+  />
+</div>
 
-       <video src={webproject.video} controls poster={webproject.image} className="h-auto w-full rounded-lg object-cover" 
-       // controlsList="nofullscreen" 🔹 désactive le bouton plein écran 
-       />
-
-
-
-      </div>
 
     </div>
   );
