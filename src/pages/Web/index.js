@@ -1,27 +1,27 @@
 import project_1 from "../../assets/images/miniature2.png";
-import project_1_video from "../../assets/video/sitevoiture.mp4";
+import project_1_video from "../../assets/video/sitevoiturecomp.mp4";
 
 import project_2 from "../../assets/images/miniature3.png";
-import project_2_video from "../../assets/video/gbemiton.mp4";
+import project_2_video from "../../assets/video/gbemitoncomp.mp4";
 
 import project_3 from "../../assets/images/miniaturerevue.png";
-import project_3_video from "../../assets/video/gameunity.mp4";
+import project_3_video from "../../assets/video/gameunitycomp.mp4";
 
 import project_4 from "../../assets/images/miniature5.png";
-import project_4_video from "../../assets/video/devopsmother.mp4";
+import project_4_video from "../../assets/video/devopsmothercomp.mp4";
 
 import project_5 from "../../assets/images/miniature6.png";
-import project_5_video from "../../assets/video/flutterproject.mp4";
+import project_5_video from "../../assets/video/flutterprojectcomp.mp4";
 
 
 import project_6 from "../../assets/images/miniature7.png";
-import project_6_video from "../../assets/video/easypass.mp4";
+import project_6_video from "../../assets/video/easypasscomp.mp4";
 
 import project_7 from "../../assets/images/miniature8.png";
-import project_7_video from "../../assets/video/inscriptionproj.mp4";
+import project_7_video from "../../assets/video/inscriptionprojcomp.mp4";
 
 import project_8 from "../../assets/images/miniature9.png";
-import project_8_video from "../../assets/video/jciproj.mp4";
+import project_8_video from "../../assets/video/jciprojcomp.mp4";
 
 
 import { i, link } from "framer-motion/client";

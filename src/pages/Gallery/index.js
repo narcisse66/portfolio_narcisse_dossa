@@ -9,6 +9,7 @@ import gallery_8 from "../../assets/gallery/gallery8.jpg";
 
 
 
+
 import { i, link } from "framer-motion/client";
 
 export const galleryData = [
