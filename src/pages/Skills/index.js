@@ -6,6 +6,9 @@ import illustrator_icon from "../../assets/icons/illustrator_icon.svg";
 import figma_icon from "../../assets/icons/figma_icon.png";
 import InDesign_icon from "../../assets/icons/indesign_icon.png";
 import Django_icon from "../../assets/icons/django_icon.png";
+import Flutter_icon from "../../assets/icons/flutter_icon.png";
+import Next_icon from "../../assets/icons/nextjs_icon.png";
+import React_icon from "../../assets/icons/react_icon.png";
 
 export const skillData = [
   {
@@ -64,5 +67,29 @@ export const skillData = [
     title: "Django",
     subtitle: " Web Development Framework",
     desc: "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It provides a robust set of tools and features for building secure and maintainable web applications efficiently.",
+  },
+
+  {
+    id: 8,
+    image: Flutter_icon,
+    title: "Flutter",
+    subtitle: " Mobile App Development Framework",
+    desc: " Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, Mac, Windows, Google Fuchsia, and the web from a single codebase.",
+  },
+
+  {
+    id: 9,
+    image: Next_icon,
+    title: "Next js",
+    subtitle: " React Framework",
+    desc: " Next.js is a React framework that enables functionality such as server-side rendering and generating static websites for React based web applications. It is designed to make the development of web applications easier and more efficient.",
+  },
+
+  {
+    id: 10,
+    image: React_icon,
+    title: "React js",
+    subtitle: " Web Development Library",
+    desc: " React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components, manage the state of applications efficiently, and build complex UIs from small, isolated pieces of code called components.",
   },
 ];
