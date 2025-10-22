@@ -17,7 +17,7 @@ import project_5_video from "../../assets/video/flutterprojectcomp.mp4";
 import project_6 from "../../assets/images/miniature7.png";
 import project_6_video from "../../assets/video/easypasscomp.mp4";
 
-import project_7 from "../../assets/images/miniature8.png";
+import project_7 from "../../assets/images/miniature11.png";
 import project_7_video from "../../assets/video/inscriptionprojcomp.mp4";
 
 import project_8 from "../../assets/images/miniature9.png";
@@ -73,16 +73,16 @@ export const webData = [
 
   {
     id: 4,
-    title: " School registration management ",
+    title: " Event's Voting System ",
     category: "Web application",
-    duration: "2 months",
-    clent: "Private company",
+    duration: "1 months",
+    clent: "Personal project",
     image: project_7,
 
     video:
-      "https://res.cloudinary.com/dp7fm3nsj/video/upload/v1758541888/inscriptionprojcomp_lj12dw.mp4",
+      "https://res.cloudinary.com/dp7fm3nsj/video/upload/v1761132116/voting_zld2df.mp4",
     url: "",
-    desc: "For this project, I created an app for managing registrations and re-registrations in schools with features such as recording registration requests, validating these requests by an admin or sending emails to parents to share important information.",
+    desc: "For this project, I created an application for voting for events. The design is simple and user-friendly for a better experience.",
   },
 
   {
