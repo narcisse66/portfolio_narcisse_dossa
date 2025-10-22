@@ -23,26 +23,14 @@ import project_7_video from "../../assets/video/inscriptionprojcomp.mp4";
 import project_8 from "../../assets/images/miniature9.png";
 import project_8_video from "../../assets/video/jciprojcomp.mp4";
 
+import project_9 from "../../assets/images/miniature10.png";
+
 
 import { i, link } from "framer-motion/client";
 
 export const webData = [
   {
     id: 1,
-    title: "Website for selling vehicles online",
-    category: "Website",
-    duration: "2 weeks",
-    clent: "private company",
-    image: project_1,
-    video:
-      "https://res.cloudinary.com/dp7fm3nsj/video/upload/v1758541961/sitevoiturecomp_cg7blv.mp4",
-
-    url: "",
-    desc: "For this project I created a website to present vehicles for sale from the company Carseling. The design is user-friendly, allowing visitors to easily browse the available vehicles and access detailed information about each one.",
-  },
-
-  {
-    id: 2,
     title: "Hackhathon MULTIMODAL IA ",
     category: "Web Application",
     duration: "3 days",
@@ -56,7 +44,7 @@ export const webData = [
   },
 
   {
-    id: 3,
+    id: 2,
     title: "Multiplayer car game",
     category: "Game Development",
     duration: "2 months",
@@ -70,7 +58,7 @@ export const webData = [
   },
 
   {
-    id: 4,
+    id: 3,
     title: " Website for Mother's Day ",
     category: "Website",
     duration: "2 months",
@@ -84,35 +72,7 @@ export const webData = [
   },
 
   {
-    id: 5,
-    title: " Art object sales app ",
-    category: "Mobile Application",
-    duration: "1 months",
-    clent: "Private company",
-    image: project_5,
-
-    video:
-      "https://res.cloudinary.com/dp7fm3nsj/video/upload/v1758541945/flutterprojectcomp_wdlbif.mp4",
-    url: "",
-    desc: "For this project, I created an app for selling art objects where the customer can view the objects for sale and place an order for the desired object. The design is simple and user-friendly for a better experience.",
-  },
-
-  {
-    id: 6,
-    title: " Hackathon Celtis ",
-    category: "Mini application",
-    duration: "2 months",
-    clent: "Private company",
-    image: project_6,
-
-    video:
-      "https://res.cloudinary.com/dp7fm3nsj/video/upload/v1758542036/easypasscomp_j8ovvq.mp4",
-    url: "",
-    desc: "For this project, My team and I have created a mini app for selling tickets for online events, EasyPass, with a conversational chatbot that makes it easier to search for specific events.  ",
-  },
-
-  {
-    id: 7,
+    id: 4,
     title: " School registration management ",
     category: "Web application",
     duration: "2 months",
@@ -126,7 +86,35 @@ export const webData = [
   },
 
   {
-    id: 8,
+    id: 5,
+    title: " Hackathon Celtis ",
+    category: "Mini application",
+    duration: "2 months",
+    clent: "Private company",
+    image: project_6,
+
+    video:
+      "https://res.cloudinary.com/dp7fm3nsj/video/upload/v1758542036/easypasscomp_j8ovvq.mp4",
+    url: "",
+    desc: "For this project, My team and I have created a mini app for selling tickets for online events, EasyPass, with a conversational chatbot that makes it easier to search for specific events.  ",
+  },
+
+  {
+    id: 6,
+    title: " Art object sales app ",
+    category: "Mobile Application",
+    duration: "1 months",
+    clent: "Private company",
+    image: project_5,
+
+    video:
+      "https://res.cloudinary.com/dp7fm3nsj/video/upload/v1758541945/flutterprojectcomp_wdlbif.mp4",
+    url: "",
+    desc: "For this project, I created an app for selling art objects where the customer can view the objects for sale and place an order for the desired object. The design is simple and user-friendly for a better experience.",
+  },
+
+  {
+    id: 7,
     title: " JCI Projet Regional ",
     category: "Webapplication",
     duration: "2 months",
@@ -137,5 +125,19 @@ export const webData = [
       "https://res.cloudinary.com/dp7fm3nsj/video/upload/v1758541917/jciprojcomp_aeaz3y.mp4",
     url: "",
     desc: "For this project, My team and I have created a web application for managing members and aspirants for JCI. Our application allows us to register new aspirants and monitor them until they become members.",
+  },
+
+  {
+    id: 8,
+    title: " Basketball League Website ",
+    category: "Website",
+    duration: "1 week",
+    clent: "Personal project",
+    image: project_9,
+
+    video:
+      "https://res.cloudinary.com/dp7fm3nsj/video/upload/v1761123195/gleague_p7yqm1.mp4",
+    url: "",
+    desc: "For this project, I created a website for a basketball league. The design is simple and user-friendly for a better experience.",
   },
 ];
